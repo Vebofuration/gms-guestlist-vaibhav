@@ -3,7 +3,7 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:guestlistvk/features/GuestList/bloc/guestlists_cubit.dart';
 import 'package:guestlistvk/features/LogIn/bloc/login_cubit.dart';
 import 'package:guestlistvk/features/LogIn/presentation/screens/login_screen.dart';
-import 'package:guestlistvk/features/GuestList/presentation/Screens/main_screen.dart';
+import 'package:guestlistvk/features/GuestList/presentation/Screens/guestlist_screen.dart';
 
 
 void main() {
@@ -35,7 +35,7 @@ class MyApp extends StatelessWidget {
         initialRoute: '/',
         routes: {
           '/': (context) =>  const LoginScreen(),
-          '/mainScreen': (context) => const MainScreen(),
+          '/mainScreen': (context) => const GuestListScreen(),
         },
       ),
     );

@@ -5,8 +5,8 @@ import 'package:guestlistvk/features/GuestList/presentation/Widgets/reusable_tex
 import 'package:guestlistvk/features/GuestList/presentation/Widgets/navbar.dart';
 import 'package:guestlistvk/features/GuestList/presentation/Widgets/dropdown_part.dart';
 
-class MainScreen extends StatelessWidget {
-  const MainScreen({super.key});
+class GuestListScreen extends StatelessWidget {
+  const GuestListScreen({super.key});
 
   @override
   Widget build(BuildContext context) {

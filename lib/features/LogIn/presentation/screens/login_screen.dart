@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:guestlistvk/features/GuestList/presentation/Screens/main_screen.dart';
+import 'package:guestlistvk/features/GuestList/presentation/Screens/guestlist_screen.dart';
 import '../../bloc/login_cubit.dart';
 import '../../bloc/login_state.dart';
 
